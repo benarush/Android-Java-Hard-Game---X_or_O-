@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:weightSum="3"
+            android:orientation="vertical"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:background="#000000"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/a"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="a"
+                    android:textSize="25sp"></Button>
+
+                <Button
+                    android:id="@+id/b"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="b"
+                    android:textSize="25sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/c"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="c"
+                    android:textSize="25sp">
+
+                </Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/d"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="d"
+                    android:textSize="25sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/e"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="e"
+                    android:textSize="25sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/f"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="f"
+                    android:textSize="25sp">
+
+                </Button>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:weightSum="3"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/g"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="g"
+                    android:textSize="25sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/h"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="h"
+                    android:textSize="25sp">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/i"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:onClick="playerChoose"
+                    android:tag="i"
+                    android:textSize="25sp">
+
+                </Button>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

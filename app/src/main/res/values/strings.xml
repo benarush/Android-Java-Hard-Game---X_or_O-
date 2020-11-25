@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="what_the_fuck_its_my_first_app">What The Fuck its my First App!</string>
+    <string name="hello">Hello</string>
+    <string name="cpu">CPU</string>
+    <string name="select_player">Select Player</string>
+    <string name="x">X</string>
+    <string name="o">O</string>
+    <string name="button">Button</string>
+    <string name="_0">0</string>
+    <string name="_00">0</string>
+    <string name="player">Player</string>
+</resources>
